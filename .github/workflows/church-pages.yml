@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: python3 -m pip install --quiet pillow
       - run: python3 tools/church_pages.py .
       - name: 바뀐 것이 있으면 커밋
         run: |

@@ -1,0 +1,29 @@
+{
+  "id": "/bangjoo/",
+  "name": "멜번방주교회 & ALF 목장 나눔터",
+  "short_name": "멜번방주교회 & ALF",
+  "lang": "ko",
+  "start_url": "/bangjoo/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b57a4",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
