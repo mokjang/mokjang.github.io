@@ -14,7 +14,7 @@
 <!-- 자동으로 만든 교회 주소 (deploy/church_pages.py): 첫 화면 그대로, 미리보기 글·그림만 교회 것.
      주소창이 /oksuchurch/ 에 남으니 브라우저에서 바로 카톡 공유해도 교회 로고가 뜬다 -->
 <script>
-try { localStorage.setItem('gajeong-church', "{\"slug\": \"oksuchurch\", \"name\": \"옥수교회\", \"logo_url\": \"\", \"theme\": \"note\", \"terms\": {}}"); } catch (e) {}
+try { localStorage.setItem('gajeong-church', "{\"slug\": \"oksuchurch\", \"name\": \"옥수교회\", \"logo_url\": \"\", \"theme\": \"note\", \"terms\": {\"unit\": \"목장\", \"leader\": \"목자\", \"member\": \"목원\"}}"); } catch (e) {}
 (function (q) { if (q.get('c') !== 'oksuchurch') { q.set('c', 'oksuchurch'); history.replaceState(null, '', location.pathname + '?' + q + location.hash); } })(new URLSearchParams(location.search));
 </script>
 <script>/* 예전 주소로 들어오면 새 주소로 옮긴다 (주소 뒤 ?c=·#j= 그대로) */
